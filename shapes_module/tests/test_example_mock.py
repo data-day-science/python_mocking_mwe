@@ -9,7 +9,7 @@ from ..circle import Circle
 from ..rectangle import Rectangle
 from unittest import TestCase
 
-class TestMockFeatures(TestCase):
+class TestMockiFeatures(TestCase):
     def test_add_shape(self):
         bag = BagOfShapes()
         shape = Mock(spec=Shape)

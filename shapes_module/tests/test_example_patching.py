@@ -15,7 +15,7 @@ import shapes_module.bag_of_shapes
 def area():
     return 10
 
-class TestExamplePatchingModules(TestCase):
+class TestExamplePatching(TestCase):
     def test_add_circle(self):
         """
         Demonstrates how to patch a module (Circle). As the BagOfShapes module has already been imported (and it has imported the Circle module), we need to patch the Circle module inside the BagOfShapes module.
